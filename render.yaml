@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Chuti Suduu
+    env: docker
+    region: Frankfurt
+    plan: free

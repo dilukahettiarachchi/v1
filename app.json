@@ -1,0 +1,18 @@
+{
+  "name": "",
+  "description": "Customizable WhatsApp Bot",
+  "repository": "",
+  "logo": "https://i.ibb.co/WyR2Bff/Chuti-Sudu-MD.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "Chuti Suduu", "GURU-bot-md", "GURU-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
